@@ -16,6 +16,12 @@ Akos Router
 [download-img]: https://img.shields.io/npm/dm/akos-router.svg?style=flat-square
 [download-url]: https://npmjs.org/package/akos-router
 
+## Install
+
+``` shell
+npm i --save akos-router
+```
+
 ## Example
 
 ``` js
