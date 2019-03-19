@@ -1,0 +1,6 @@
+{
+    "extends": "vusion",
+    "env": {
+        "node": true
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "akos-router",
+  "description": "Akos Router",
+  "version": "0.1.0",
+  "author": "Rainfore <rainforest92@126.com>",
+  "scripts": {
+    "lint": "eslint ./src --fix",
+    "precommit": "node node_modules/vusion-hooks/precommit",
+    "test": "mocha --timeout 5000 ./test/unit.test.js"
+  },
+  "main": "./index.js",
+  "repository": "akos/router",
+  "bugs": {
+    "url": "http://github.com/akos/router/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "akos",
+    "koa",
+    "router"
+  ],
+  "tags": [
+    "akos",
+    "koa",
+    "router"
+  ],
+  "dependencies": {
+    "debug": "^4.1.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-config-vusion": "^3.0.1",
+    "husky": "^1.3.1",
+    "mocha": "^6.0.2",
+    "vusion-hooks": "^0.2.2"
+  }
+}
