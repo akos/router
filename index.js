@@ -88,8 +88,8 @@ class AkosRouter {
                 if (controller[route.action]) {
                     action = controller[route.action];
                     console.info(`Mapped: ${route.method} ${route.path} to ${controllerPath}.${route.action}`);
-                } else
-                    console.warn(`Cannot find action ${route.action} in controller ${controllerPath}. Route '${JSON.stringify(route)}' is ignored.`);
+                } // else
+                // console.warn(`Cannot find action ${route.action} in controller ${controllerPath}. Route '${JSON.stringify(route)}' is ignored.`);
             }
 
             if (action) {
