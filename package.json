@@ -1,7 +1,7 @@
 {
   "name": "akos-router",
   "description": "Akos Router",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Rainfore <rainforest92@126.com>",
   "scripts": {
     "lint": "eslint ./src --fix",
