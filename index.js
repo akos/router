@@ -33,8 +33,8 @@ function flattenRoutes(routes) {
 
             const flatRoute = {
                 method: route.method || parent.method,
-                path: path.join(parent.path, route.path || ''),
-                directory: path.join(parent.directory, route.directory || ''),
+                path: path.join(parent.path, route.path || '').replace(/\\/g, '/'),
+                directory: path.join(parent.directory, route.directory || '').replace(/\\/g, '/'),
                 controller: route.controller || parent.controller,
                 action: route.action,
             };
